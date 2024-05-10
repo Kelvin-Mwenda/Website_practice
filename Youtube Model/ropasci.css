@@ -1,0 +1,20 @@
+.tweet-button{
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(2,158,258);
+    border-radius: 18px;
+    border: none;  
+    cursor: pointer;  
+    vertical-align: top;
+    margin-right: 12px;
+    transition: box-shadow 0.15s;
+}
+.tweet-button:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.15);
+}
+.tweet-button:active{
+    opacity: 0.5;
+}

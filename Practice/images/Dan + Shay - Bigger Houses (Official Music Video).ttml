@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:04.150" end="00:00:20.699" style="s2">[Music]</p>
+<p begin="00:00:16.940" end="00:00:24.359" style="s2">I used to dream about buying a bigger</p>
+<p begin="00:00:20.699" end="00:00:27.300" style="s2">house sitting on top of some Hill</p>
+<p begin="00:00:24.359" end="00:00:31.500" style="s2">losing sleep about feeling my bank</p>
+<p begin="00:00:27.300" end="00:00:34.200" style="s2">account wondering if I ever will but the</p>
+<p begin="00:00:31.500" end="00:00:37.100" style="s2">older I get I just care less and less</p>
+<p begin="00:00:34.200" end="00:00:39.960" style="s2">about keeping up with people named Jones</p>
+<p begin="00:00:37.100" end="00:00:42.899" style="s2">if you don&#39;t fill it up with somebody</p>
+<p begin="00:00:39.960" end="00:00:44.460" style="s2">that you love it ain&#39;t never wanna feel</p>
+<p begin="00:00:42.899" end="00:00:48.239" style="s2">like home</p>
+<p begin="00:00:44.460" end="00:00:51.059" style="s2">there&#39;s always gonna be a higher high</p>
+<p begin="00:00:48.239" end="00:00:54.660" style="s2">you could Chase for the rest of your</p>
+<p begin="00:00:51.059" end="00:00:57.780" style="s2">life greener grass in the yard next door</p>
+<p begin="00:00:54.660" end="00:01:01.199" style="s2">or shine up Chevy little newer than</p>
+<p begin="00:00:57.780" end="00:01:06.920" style="s2">yours you&#39;re never gonna feel it empty</p>
+<p begin="00:01:01.199" end="00:01:06.920" style="s2">cup if what you got still not enough</p>
+<p begin="00:01:08.640" end="00:01:16.640" style="s2">us that don&#39;t live in bigger houses</p>
+<p begin="00:01:13.939" end="00:01:18.780" style="s2">I can hear the kids making Little</p>
+<p begin="00:01:16.640" end="00:01:20.720" style="s2">Footsteps running down the hallway</p>
+<p begin="00:01:18.780" end="00:01:23.580" style="s2">upstairs</p>
+<p begin="00:01:20.720" end="00:01:25.560" style="s2">I can see the dogs playing in the</p>
+<p begin="00:01:23.580" end="00:01:29.100" style="s2">backyard through the kitchen window</p>
+<p begin="00:01:25.560" end="00:01:31.680" style="s2">right there maybe that&#39;s kind of more</p>
+<p begin="00:01:29.100" end="00:01:35.159" style="s2">about a swing on a porch holding her</p>
+<p begin="00:01:31.680" end="00:01:38.759" style="s2">while the sun disappears why would I</p>
+<p begin="00:01:35.159" end="00:01:44.299" style="s2">wanna be anywhere else in the world</p>
+<p begin="00:01:38.759" end="00:01:44.299" style="s2">sitting right here there&#39;s always</p>
+<p begin="00:01:50.520" end="00:01:55.370" style="s2">[Music]</p>
+<p begin="00:02:03.870" end="00:02:11.370" style="s2">[Music]</p>
+<p begin="00:02:14.030" end="00:02:20.239" style="s2">[Applause]</p>
+<p begin="00:02:17.239" end="00:02:20.239" style="s2">thank you</p>
+<p begin="00:02:22.340" end="00:02:28.620" style="s2">there&#39;s always gonna be a high yeah</p>
+<p begin="00:02:26.280" end="00:02:29.640" style="s2">you could Chase for the rest of your</p>
+<p begin="00:02:28.620" end="00:02:33.120" style="s2">life</p>
+<p begin="00:02:29.640" end="00:02:35.640" style="s2">green of grass in the yard next door a</p>
+<p begin="00:02:33.120" end="00:02:38.170" style="s2">shined up Chevy little New World in</p>
+<p begin="00:02:35.640" end="00:02:42.540" style="s2">yours</p>
+<p begin="00:02:38.170" end="00:02:42.540" style="s2">[Music]</p>
+<p begin="00:02:45.030" end="00:02:48.199" style="s2">[Music]</p>
+<p begin="00:02:48.720" end="00:02:55.379" style="s2">there has to have houses the thing about</p>
+<p begin="00:02:51.239" end="00:02:58.580" style="s2">happiness I found is you don&#39;t live in</p>
+<p begin="00:02:55.379" end="00:02:58.580" style="s2">bigger houses</p>
+<p begin="00:03:00.710" end="00:03:05.740" style="s2">[Music]</p>
+<p begin="00:03:08.460" end="00:03:15.669" style="s2">[Music]</p>
+</div>
+</body>
+</tt>

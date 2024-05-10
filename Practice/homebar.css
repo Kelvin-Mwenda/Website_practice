@@ -1,0 +1,173 @@
+.homebar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  position: relative;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  margin-top: 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  margin-bottom: 12px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: rgb(179, 170, 170);
+  box-shadow: inset 1px 2px 3px rgb(0,0,0,0.05);
+  margin-left: 0;
+  background-color: wheat;
+}
+
+.home{
+  width: 300px;
+  margin-left: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  border-radius: 30px;
+  background-color: white;
+  width: 60px;
+  height: 40px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  transition: opacity 0.15s, box-shadow 0.15s;
+}
+.home:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px black;
+}
+.home1{
+  margin-left: 6px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 55px;
+  margin-right: 35px;
+  max-width: 700px;
+}
+.search1{
+  flex: 1;
+  width: 0;
+  min-width: 40px;
+  height: 41px;
+  font-size: 20px;
+  padding-left: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  border-color: rgb(179, 170, 170);
+  box-shadow: inset 1px 2px 3px rgb(0,0,0,0.05);
+}
+.search1::placeholder{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.search-button1{
+  height: 43px;
+  width: 43px;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 100px;
+  border-color: rgb(190, 184, 184);
+  margin-left: -46px;
+  margin-right: 20px;
+}
+.search-button1:hover{
+  cursor: pointer;
+}
+.search-icon1{
+  height: 20px;
+  width: 20px;
+}
+.voice-search-button1{
+  width: 50px;
+  height: 45px;
+  border-style: none;
+  border-radius: 25px;
+  background-color: rgb(238, 235, 235);
+  transition: opacity 0.15s, box-shadow 0.15s;
+}
+.voice-search-button1:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px black;
+}
+.voice-search-icon1{
+  height: 20px;
+  width: 20px;
+}
+
+.profile{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  flex-shrink: 0;
+}
+.upload-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px ;
+  transition: opacity 0.15s, box-shadow 0.15s;
+}
+.upload-icon:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px black;
+}
+.youtube-apps-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px ;
+  transition: opacity 0.15s, box-shadow 0.15s;
+}
+.youtube-apps-icon:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px black;
+}
+.notifications-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px ;
+  transition: opacity 0.15s, box-shadow 0.15s;
+}
+.notifications-icon:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px black;
+}
+.prof-icon1{
+  width:45px;
+  height: 45px;
+  border-radius: 50px ;
+  object-fit: cover;
+  transition: opacity 0.15s, box-shadow 0.15s;
+}
+.prof-icon1:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px black;
+}

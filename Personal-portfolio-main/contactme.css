@@ -1,0 +1,69 @@
+body {
+    background-image: linear-gradient(rgba(14, 241, 44, 0.555), rgba(0,0,0,0.5)), url('/images/pexels-sohail-nachiti-807598.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional - this will fix the background when scrolling */
+  }
+  
+.topbar{
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 20px 20px ;
+    background-color: rgba(6, 7, 7, 0.521);
+    
+}
+
+.home{
+    color: rgb(217, 224, 219);
+    padding: auto;
+}
+.about{
+    color: rgb(225, 230, 225);
+    padding-left: 15px;
+}
+.contact{
+    color: rgb(225, 231, 226);
+    padding-left: 15px;
+}
+
+.contactme{
+    margin-top: 80px;
+}
+
+/* styles.css */
+
+/* Style for form container */
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for form inputs and submit button */
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}

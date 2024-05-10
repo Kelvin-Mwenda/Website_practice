@@ -1,0 +1,133 @@
+p{
+  font-family: Jersey,sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body{
+  padding-top: 54px;
+  padding-left: 76px;
+  background-color: rgb(224, 219, 219) ;
+}
+.thumbnail2{
+  border-style: solid;
+  border-radius: 18px;
+  display: inline-block;
+} 
+.searchbar{
+  font-size: 14px;
+  margin-left: 12px;
+  vertical-align: top;
+}
+.checkbox{
+  vertical-align: top;
+}
+
+.video-grid{
+  margin-top: 12px;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 25px;
+}
+.youtube{
+  margin-left: 12px;
+  width: 300px;
+  display: inline-block;
+}
+.video-frame{
+  position: relative;
+}
+.thumbnail{
+  width: 300px;
+  margin-top: 12px;
+  margin-bottom: 0;
+  border-radius: 2px;
+  cursor:pointer;
+}
+.video-time{
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background-color: black;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 3px;
+  padding-left: 3px;
+  border-style: none;
+  border-radius: 3px;
+  z-index: 2;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial;
+}
+.video-preview{
+  margin-top: 10px;
+  object-fit: cover;
+  display: grid;
+  grid-template-columns: 38px 1fr;
+  column-gap: 6px;
+}
+.profile{
+  vertical-align: top;
+  width: 38px;
+}
+.profile-pic{
+  border-radius: 50px;
+  width: 100%;
+  cursor: pointer;
+}
+.video-info{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 4px;
+}
+.video-title{  
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px; 
+}
+.video-stats{
+  color: rgb(96,96,96);
+  font-size: 15px;
+}
+.video-author{ 
+  font-size: 13px;
+  color: rgb(96,96,96);
+}
+
+.footer{
+  line-height: 16px;
+  text-align: center;
+  position: relative;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  padding: 12px;
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  color: wheat;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/mountain1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 800px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 801px) and (max-width: 999){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1000px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
