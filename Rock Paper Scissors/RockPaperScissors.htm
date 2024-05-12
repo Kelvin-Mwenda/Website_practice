@@ -25,15 +25,29 @@
             Scissors
         </button>
 
+        <P class="js-result"></P>
+        <p class="js-moves"></p>
+        <p class="js-score"></p>
+
         <button class="tweet-button" onclick="
             score.wins = 0;
             score.losses = 0;
             score.ties = 0;
+            localStorage.removeItem('score');
+            updateScore();
         ">
             Reset Score
         </button>
 
         <script>
+            let score = JSON.parse(localStorage.getItem('score')) || {
+                wins: 0,
+                losses: 0,
+                ties: 0
+            }
+
+            updateScore();
+
             function pickComputerMove(){
                 const randomNumber = Math.random();
                 let computerMove = '';
@@ -50,12 +64,6 @@
                     computerMove = 'scissors';
                 }
                 return computerMove;
-            }
-
-            const score = {
-                wins: 0,
-                losses: 0,
-                ties: 0
             }
 
             function playGame(playerMove){
@@ -96,7 +104,17 @@
                 }else if(result === 'Tie'){
                     score.ties += 1;
                 }
-                alert(`You picked ${playerMove}.\nComputer picked ${computerMove}.\n${result}\n Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`);
+
+                localStorage.setItem('score',JSON.stringify(score));
+
+                updateScore();
+
+                document.querySelector('.js-result').innerHTML = result
+
+                document.querySelector('.js-moves').innerHTML = `You ${playerMove} - ${computerMove} Computer`
+            }
+            function updateScore(){
+                document.querySelector('.js-score').innerHTML = `Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`
             }
         </script>
     </body>

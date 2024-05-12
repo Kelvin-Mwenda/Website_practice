@@ -1,21 +1,18 @@
 .table{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   row-gap: 10px;
 }
+
+
 .facebook{
-  display: flex;
-  flex-direction: column;
-  row-gap: 10px;
+  flex: 1;
   background-color: white;
-  justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 15px;
-  object-position: top;
-  margin-right: 6px;
-  border-style: solid;
-  width: 170px;
-  border-width: 2px;
+  margin: 15px 6px 6px 0px;
+  border: 2px solid rgb(177, 170, 170);
   border-radius: 5px;
-  border-color: rgb(177, 170, 170);
+  width: 170px;
 }
