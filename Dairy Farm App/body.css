@@ -1,0 +1,118 @@
+.right,
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 20px;
+    align-items: center;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px;
+    border: 2px solid rgb(68, 206, 252);
+    border-left: 8px solid rgb(68, 206, 252);
+    border-right: 8px solid rgb(68, 206, 252);
+    border-radius: 8px;
+    margin-top: 60px;
+    box-shadow: inset 1px 2px 3px rgb(0,0,0,0.5);
+}
+.title{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0, 119, 255);
+    text-decoration: underline;
+}
+.introduction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images/introbackgrd.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgb(68, 206, 252);
+    border-left: 8px solid rgb(68, 206, 252);
+    border-right: 8px solid rgb(68, 206, 252);
+    border-radius: 8px;
+}
+.intro-info{
+    flex: 1;
+    background-color: rgb(42, 48, 104,0.7);
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.intro-image-container{
+    display: flex;
+    align-items: center;
+    padding: auto;
+    width: 400px;
+    height: 400px;
+}
+.intro-image{
+    height: 396px;
+    width: 399px;
+    object-fit: cover;
+    object-position: center;
+}
+section h2 {
+    color: rgb(49, 164, 241);
+}
+.about-image-container{
+    margin-right: 20px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+
+}
+.about-image,
+.solution-image{
+    height: 300px;
+    width: 300px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border: 2px solid grey;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px black;
+}
+.about-image:hover,
+.solution-image:hover{
+    transform: scale(1.05);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+.list{
+    color: brown; 
+    font-weight:bold;
+    font-size:16px;
+}
