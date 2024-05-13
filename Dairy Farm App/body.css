@@ -1,3 +1,6 @@
+body{
+
+}
 .right,
 .left{
     display: flex;
@@ -11,14 +14,19 @@
     line-height: 20px;
     padding: 20px;
     border: 2px solid rgb(68, 206, 252);
-    border-left: 8px solid rgb(68, 206, 252);
-    border-right: 8px solid rgb(68, 206, 252);
     border-radius: 8px;
     margin-top: 60px;
     box-shadow: inset 1px 2px 3px rgb(0,0,0,0.5);
+    box-shadow: 5px 5px 10px black;
+}
+.left{
+    border-left: 8px solid rgb(68, 206, 252);
+}
+.right{
+    border-right: 8px solid rgb(68, 206, 252);
 }
 .title{
-    text-align: center;
+    text-align: center;  
     font-size: 18px;
     color: rgb(0, 119, 255);
     padding-bottom: 0;
@@ -63,7 +71,10 @@ section h2 {
     color: rgb(49, 164, 241);
 }
 .about-image-container{
+    flex: 1;
     margin-right: 20px;
+    width: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -71,6 +82,7 @@ section h2 {
     margin-right: 30px;
 }
 .about{
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: top;
@@ -85,7 +97,6 @@ section h2 {
     margin-right: 12px;
     border: 2px solid rgb(64, 186, 226);
     border-radius: 3px;
-    box-shadow: 5px 5px 10px black;
 }
 .about-image:hover,
 .solution-image:hover{
@@ -97,6 +108,7 @@ section h2 {
     font-size: 18px;
     color: rgb(0, 119, 255);
     border-bottom: 4px solid brown;
+    border-bottom-width: 80%;
 }
 form input, form textarea {
     width: 100%;
