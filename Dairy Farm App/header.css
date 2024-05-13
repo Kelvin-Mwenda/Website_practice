@@ -19,10 +19,7 @@ body, html {
     font-weight: bold;
     padding: 10px 20px;
     text-align: center;
-    background-image: url('images/milkbackgrd.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: wheat;
     display: flex;
     flex-direction: column;
     column-gap: 20px;
@@ -48,14 +45,16 @@ body, html {
 }
 .cow-logo{
     flex: 1;
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     object-position: center;
     border: 0 none rgb(9, 192, 224);
     border-radius: 60px;
+    background: transparent;
 }
 .logo-line{
+    margin-top: 4px;
     flex: 1;
     white-space: nowrap;
     color: rgb(32, 155, 236);
@@ -88,7 +87,8 @@ body, html {
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
-    border: 2px solid rgb(202, 175, 175);
+    border-top: 4px solid white;
+    border-bottom: 4px solid green;
     border-radius: 12px;
     margin-left: -200px;
     margin-right: -200px;
