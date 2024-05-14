@@ -52,10 +52,8 @@
   flex: 1;
   padding-left: 6px;
   height: 32px;
-  border-style: solid;
-  border-width: 1px;
+  border:1px solid rgb(179, 170, 170);
   border-radius: 2px;
-  border-color: rgb(179, 170, 170);
   box-shadow: inset 1px 2px 3px rgb(0,0,0,0.05);
 }
 .searchbar::placeholder{
@@ -69,10 +67,8 @@
   align-items: center;
   height: 36px;
   width: 55px;
-  border-style: solid;
-  border-width: 1px;
+  border-style: 1px solid rgb(190, 184, 184);
   border-radius: 2px;
-  border-color: rgb(190, 184, 184);
   margin-left: -1px;
   margin-right: 20px;
   cursor: pointer;
@@ -127,9 +123,8 @@
   align-items: center;
   width: 38px;
   height: 38px;
-  border-style: none;
+  border-style: 0px none rgb(238, 235, 235);
   border-radius: 20px;
-  background-color: rgb(238, 235, 235);
 }
 .voice-search-icon{
   height: 20px;

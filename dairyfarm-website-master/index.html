@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dairy Business</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2 id="heading">MILK PRODUCTION</h2>
+        <hr />
+        <!-- <table>
+            <tr>
+                <td>
+                    <label>Enter Milk production for shed A:</label>
+                </td>
+                <td>
+                    <input type="text" name="sheda" id="sheda" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Enter Milk production for shed B:</label>
+                </td>
+                <td>
+                    <input type="text" name="shedb" id="shedb" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Enter Milk production for shed C:</label>
+                </td>
+                <td>
+                    <input type="text" name="shedc" id="shedc" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Enter Milk production for shed D:</label>
+                </td>
+                <td>
+                    <input type="text" name="shedd" id="shedd" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <input type="button" value="Calculate" onclick="totalProduction()" />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <label>Total Production per day</label>
+                </td>
+                <td>
+                    <input type="text" name="totallitres" id="totallitres" readonly />
+                </td>
+            </tr>
+        </table>
+        
+        <hr> -->
+        <div class="form2">
+
+            <div class="dataform">
+                    <h1 d="heading">Get M0nthly Report</h1>
+                    <hr>
+                <form action="submit" onsubmit="milkReport();">
+                    <h2></h2> 
+                    <div id="sheds">
+                        <label for="shedA">Shed A Litres:</label>
+                        <input id="shedA" type="number" min="0" required>
+                    </div>
+            
+                    <div id="shed">
+                        <label for="shedB">Shed B Litres:</label>
+                        <input id="shedB" type="number" min="0" required>
+                    </div>
+            
+                    <div id="sheds">
+                        <label for="shedC">Shed C LItres:</label>
+                        <input id="shedC" type="number" min="0" required>
+                    </div>
+            
+                    <div id="sheds">
+                        <label for="shedD">Shed D Litres:</label>
+                        <input id="shedD" type="number" min="0" required>
+                    </div>
+            
+                    <button type="submit">Submit</button>
+                   
+                    
+                </form>
+            </div>
+            <div class="img1">
+                <img src="./assets/images/Dairy-Cows-In-Field.jpg" alt="">
+            </div>
+    </div>
+    
+    <div>
+        <h2 id="heading">Monthly and Leap Year Report</h2>
+        <hr>
+   
+
+    </div>
+            <div class="outputDisplay">
+                <h2 id="displayTitle">Production Milk Report</h2>
+                
+                <p id="outputData"></p>
+    
+            </div>
+        </div>        
+        <div>
+            <h2 id="heading">Total income</h2>
+            <hr>
+       
+
+        </div>
+        <div class="selling">
+
+        <div class="income">
+            <form method="POST" id="incomeForm">
+                Enter brooksides buying price: Ksh
+                <input type="int" id="buyingPrice" size="3" name="buyingPrice"><br />
+                <br>
+               Enter number of days: 
+                <input type="int" id="time" size="3" name="time"> in a week <br />
+                <br>
+                
+                Total Litres of milk per day: <input type="int" id="litres" size="3" name="litres"> Litres <br />
+                <br>
+                <button type="submit">Get Totals</button>
+                <br>
+            </form>
+        </div>
+        <br>
+
+
+        <div class="total-income">
+            <label>Total income per week: ksh</label>
+            <input type="text" name="week" id="perWeek" readonly />
+
+            <br>
+            <br>
+            <label>Total income per month: ksh</label>
+            <input type="text" name="month" id="perMonth" readonly />
+
+            <br>
+            <br>
+            <label>Total income per year: ksh</label>
+            <input type="text" name="" id="perYear" readonly />
+
+        </div>
+        </div>
+
+        
+        
+        
+
+         
+    <script type="text/javascript" src="index.js"></script>
+             
+</body>
+</html>
