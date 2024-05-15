@@ -13,21 +13,21 @@
 
         <button class="tweet-button" onclick="
         playGame('rock');">
-            Rock
+            <img src="images/rock-emoji.png" class="move-icon">
         </button>
 
         <button class="tweet-button" onclick="
         playGame('paper');">
-            Paper
+        <img src="images/paper-emoji.png" class="move-icon">
         </button>
 
         <button class="tweet-button" onclick="playGame('scissors');">
-            Scissors
+            <img src="images/scissors-emoji.png" class="move-icon">
         </button>
 
-        <P class="js-result"></P>
+        <P class="js-result result"></P>
         <p class="js-moves"></p>
-        <p class="js-score"></p>
+        <p class="js-score score"></p>
 
         <button class="tweet-button" onclick="
             score.wins = 0;
@@ -35,7 +35,7 @@
             score.ties = 0;
             localStorage.removeItem('score');
             updateScore();
-        ">
+        " class="reset-score-button">
             Reset Score
         </button>
 
@@ -111,7 +111,7 @@
 
                 document.querySelector('.js-result').innerHTML = result
 
-                document.querySelector('.js-moves').innerHTML = `You ${playerMove} - ${computerMove} Computer`
+                document.querySelector('.js-moves').innerHTML = `You <img src='images/${playerMove}-emoji.png' class='move-icon'> - <img src='images/${computerMove}-emoji.png' class='move-icon'> Computer`
             }
             
             function updateScore(){
