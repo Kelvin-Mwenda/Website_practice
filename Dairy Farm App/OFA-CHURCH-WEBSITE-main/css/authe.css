@@ -1,0 +1,87 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.formContainer{
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("/photos/silhouette.jpg");
+    object-fit: cover;
+    justify-content: center;
+}
+.input_wrap{
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 50%;
+    height: 450px;
+    padding: 10px;
+    border-radius: 25px; 
+    overflow: hidden;
+}
+.ref{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transform: translateY(60%);
+    width: 20%;
+    background:linear-gradient(to right, black, orange);
+}
+.ref a{
+    text-decoration: none;
+    color:wheat;
+    font-size: 1.2rem;
+}
+.ref a:hover{
+    color:greeny;
+}
+button {
+    border: 1px solid green;
+    border-radius: 25px;
+    text-align: center;
+    padding: 15px 0;
+    margin: 30px 10px;
+    width: 150px;
+    background: transparent;
+    transform: translateY(-50%);
+    top: 95%;
+    overflow: hidden;
+    cursor: pointer;
+    color: white;
+}
+button:hover {
+    background: orange;
+}
+
+.input_text input, #country{
+    border: 1px solid green;
+    border-radius: 25px;
+    width: 300px;
+    height: 40px;
+    overflow: none;
+    text-align: center;
+    color: green;
+    font-size: 0.9rem;
+}
+label{
+    font-size: 1rem;
+    color: white;
+}
+.input_text{
+    padding:10px;
+}
+#error{
+    font-size: 1.2rem;
+    color: red;
+    padding: 10px;
+    text-transform: uppercase;
+}
+#errorPass, #errorEmail{
+    color: greenyellow;
+}
