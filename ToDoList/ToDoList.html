@@ -11,10 +11,14 @@
             <h1>MY TO DO LIST</h1>
         </header>
         <main>
-            <input placeholder="Add Task" class="js-input-task">
-            <button onclick="addToDo()">Add</button>
-
-            <div class="js-todoList"></div>
+            <div class="todo">
+                <div class="input">
+                    <input placeholder="Add Task" class="js-input-task taskInput">
+                    <input type="date" class="js-dateInput dateInput">
+                    <button onclick="addToDo()" class="add-button">Add</button>
+                </div>
+                <div class="js-todoList render"></div>
+            </div>
         </main>
         <footer>
 

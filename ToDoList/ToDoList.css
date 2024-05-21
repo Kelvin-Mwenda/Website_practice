@@ -1,0 +1,48 @@
+body{
+    background-color: wheat;
+}
+.todo{
+    display:flex;
+    flex-direction: column;
+    row-gap: 6px;
+    height:20px;
+}
+.input{
+    display:flex;
+    flex-direction: row;
+    column-gap: 6px;
+}
+.render{
+    display:grid;
+    grid-template-columns: 270px 270px 70px;
+    column-gap: 7px;
+    height:20px;
+}
+.add-button,
+.delete-button{
+    width: 70px;
+    color: white;
+    font-size:16px;
+    background-color: green;
+    border: 2px solid grey;
+    border-radius: 4px;
+}
+.delete-button{
+    height:40px;
+    background-color: rgb(168, 5, 5);
+    width: 70px;
+    color: white;
+    font-size:16px;
+}
+.taskInput,
+.dateInput{
+    width:250px;
+    padding: 4px 6px;
+    height:28px;
+    border:2px solid black;
+    border-radius:4px;
+    margin-right:6px;
+}
+.dateInput{
+    width:250px;
+}
